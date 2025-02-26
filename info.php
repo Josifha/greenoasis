@@ -81,13 +81,9 @@ if (!isset($_SESSION['username'])) {
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <div class="logo-container">
-                <img src="img/icon-deal.png" alt="Icon" style="width: 80px; height: 70px;">
-                <div class="logo-text">
-                    <h1 style="color: black;">Green Oasis</h1>
-                    <h2 class="arabic-text">الواحات الخضراء</h2>
+        <div class="logo-container logo">
+                    <img src="img/icon-deal.png" alt="Icon" style="width: 200px; height: 70px;">
                 </div>
-            </div>
         </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -101,6 +97,8 @@ if (!isset($_SESSION['username'])) {
                         <div class="dropdown-menu m-0">
                             <a href="equipment.html" class="dropdown-item text-primary">Equipment Rental</a>
                             <a href="manpower.html" class="dropdown-item text-primary">Manpower supply</a>
+                            <a href="ofos.html" class="dropdown-item text-primary ">On-factory and On-site Supervision for Construction</a>
+                            <a href="precomissioning.html" class="dropdown-item text-primary">Pre-Commissioning</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -109,7 +107,7 @@ if (!isset($_SESSION['username'])) {
                         <a href="steel.html" class="dropdown-item text-primary">Steel</a>
                             <a href="wood.html" class="dropdown-item text-primary">Wood Supply</a>
                             <a href="Electrical.html" class="dropdown-item text-primary ">Electrical</a>
-                            <a href="saftey.html" class="dropdown-item text-primary">Saftey Eqipment</a>
+                            <a href="saftey.html" class="dropdown-item text-primary">Safety Equipment</a>
                         </div>
                     </div>
                     <a href="appointment.php" class="nav-item nav-link">Appointment</a>
@@ -270,29 +268,7 @@ if (!isset($_SESSION['username'])) {
                     <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
                     <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Photo Gallery</h5>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+               
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p>Subscribe for lastest updates.</p>

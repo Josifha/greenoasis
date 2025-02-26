@@ -74,13 +74,9 @@ if (isset($_SESSION['username'])) {
 <!-- Navbar Start -->
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <div class="logo-container">
-            <img src="img/icon-deal.png" alt="Icon" style="width: 80px; height: 70px;">
-            <div class="logo-text">
-                <h1 style="color: black;">Green Oasis</h1>
-                <h2 class="arabic-text">الواحات الخضراء</h2>
-            </div>
-        </div>
+    <div class="logo-container logo">
+                    <img src="img/icon-deal.png" alt="Icon" style="width: 200px; height: 70px;">
+                </div>
     </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
@@ -94,6 +90,8 @@ if (isset($_SESSION['username'])) {
                     <div class="dropdown-menu m-0">
                         <a href="equipment.html" class="dropdown-item text-primary">Equipment Rental</a>
                         <a href="manpower.html" class="dropdown-item text-primary">Manpower supply</a>
+                        <a href="ofos.html" class="dropdown-item text-primary ">On-factory and On-site Supervision for Construction</a>
+                        <a href="precomissioning.html" class="dropdown-item text-primary">Pre-Commissioning</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -102,7 +100,8 @@ if (isset($_SESSION['username'])) {
                         <a href="steel.html" class="dropdown-item text-primary">Steel</a>
                         <a href="wood.html" class="dropdown-item text-primary">Wood Supply</a>
                         <a href="Electrical.html" class="dropdown-item text-primary ">Electrical</a>
-                        <a href="saftey.html" class="dropdown-item text-primary">Saftey Eqipment</a>
+                        <a href="saftey.html" class="dropdown-item text-primary">Safety Equipment</a>
+                       
                     </div>
                 </div>
                 <a href="appointment.php" class="nav-item nav-link">Appointment</a>
@@ -112,7 +111,7 @@ if (isset($_SESSION['username'])) {
         </div>
     </nav>
 
-    <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+    <div class="container-fluid bg-primary py-5 bgAp-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
                 <h1 class="display-4 text-white animated zoomIn">Appointment</h1>
@@ -231,7 +230,13 @@ if (isset($_SESSION['username'])) {
 
 
   
-    
+      <!-- Google Map Start -->
+      <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <iframe  class="w-100 mb-n2" style="height: 450px;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3577.487074964437!2d50.2026389!3d26.278305600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDE2JzQxLjkiTiA1MMKwMTInMDkuNSJF!5e0!3m2!1sen!2sin!4v1740572807654!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+    </div>
+    <!-- Google Map End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -257,29 +262,7 @@ if (isset($_SESSION['username'])) {
                     <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
                     <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Photo Gallery</h5>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p>Subscribe for lastest updates.</p>

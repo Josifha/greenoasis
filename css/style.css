@@ -8,62 +8,38 @@
 
 }
 
-    .logo {
-        font-weight: bold;
-        font-size: 28px; /* Make text larger */
-        color: #ffffff; /* Bright text */
-        background-color: rgba(249, 249, 249, 0.9); /* Dark green with transparency */
-        padding: 12px 18px; /* Add spacing */
-        border-radius: 10px; /* Rounded edges */
-        display: inline-block;
-        box-shadow: 0px 4px 15px rgba(0, 255, 0, 0.8); /* Neon glow */
-        transition: all 0.3s ease-in-out;
-        animation: glowing 1.5s infinite alternate; 
-    }
-    @keyframes glowing {
-        0% { text-shadow: 0 0 10px #00ff00; }
-        50% { text-shadow: 0 0 20px #00ff00; }
-        100% { text-shadow: 0 0 10px #00ff00; }
-    }
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+
+
+.logo {
+    filter: contrast(2) brightness(1.5) drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); 
+    /* Enhances contrast and brightness */
     
-    /* 🟢 Add Hover Effect for More Visibility */
-    .logo:hover {
-        transform: scale(1.1); /* Slight zoom */
-        box-shadow: 0px 5px 20px rgba(0, 255, 0, 1); /* Brighter glow */
-    }
+    -webkit-filter: contrast(2) brightness(1.5) drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    /* Ensures compatibility with WebKit browsers like Safari */
     
-    .logo-container {
-        display: flex; /* Aligns items in a row */
-        align-items: center; /* Vertically centers items */
-        gap: 15px; /* Adds spacing between logo and text */
-        position: absolute; /* Position it properly */
-        top: 0px; /* Adjust top margin */
-        left: 20px; /* Adjust left margin */
-    }
+    image-rendering: crisp-edges; /* Improves sharpness */
     
-    .logo-container img {
-        width: 60px; /* Adjust logo size */
-        height: auto;
-    }
-    
-    .logo-text {
-        display: flex;
-        flex-direction: column; /* Align text in a column */
-        text-align: left; /* Aligns text to the left */
-    }
-    
-    .logo-text h1 {
-        font-size: 30px !important;
-        margin: 0;
-        color: #0c0c0c; /* Adjust color if needed */
-    }
-    
-    .arabic-text {
-        font-size: 18px;
-        margin: 0;
-        color: #050605; /* Adjust color if needed */
-    }
-    
+    width: 220px; /* Adjust the size */
+    height: auto;
+}
+
+   
+.owl-carousel .item img {
+    width: 150%; /* Adjust percentage as needed */
+    max-width: 200px; /* Prevents excessive enlargement */
+    display: block;
+    height: auto;
+    padding: 0 10px;
+}
+ 
 /*** Spinner ***/
 .spinner {
     width: 40px;
@@ -477,7 +453,23 @@ h6,
     background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/img1.jpg) center center no-repeat;
     background-size: cover;
 }
+.bgAp-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/appointment3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bgpro-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/products.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bgser-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/ser.jpg) center center no-repeat;
+    background-size: cover;
+}
 
+.bgabout-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/abou.jpg) center center no-repeat;
+    background-size: cover;
+}
 /*** About & Feature ***/
 .about-img,
 .feature-img {
