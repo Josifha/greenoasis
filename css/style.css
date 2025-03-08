@@ -470,6 +470,39 @@ h6,
     background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/abou.jpg) center center no-repeat;
     background-size: cover;
 }
+
+.bgservone-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/servi1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bgservtwo-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/serv2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bgservthree-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/serv3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bgservfour-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/serv4.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+.bgprodtwo-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/prod2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bgprodthree-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/prod3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bgprodfour-header{
+    background: linear-gradient(rgba(236, 242, 238, 0.3), rgba(235, 235, 235, 0.3)), url(../img/prod4.jpg) center center no-repeat;
+    background-size: cover;
+}
 /*** About & Feature ***/
 .about-img,
 .feature-img {

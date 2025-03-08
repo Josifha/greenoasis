@@ -1,7 +1,7 @@
 <?php
-$servername = "127.0.0.1:3306";
+$servername = "localhost:3306";
 $username = "root";
-$password = "w1gnxHCyKKBYr43";
+$password = "";
 $dbname = "go";
 
 // Create connection
